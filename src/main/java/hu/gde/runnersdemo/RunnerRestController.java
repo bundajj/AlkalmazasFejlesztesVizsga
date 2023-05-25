@@ -85,6 +85,25 @@ public class RunnerRestController {
         } else {
             return "null";
         }
+
+
+    }
+    @GetMapping("/averageheight")
+    public double getAverageHeight() {
+        List<RunnerEntity> runners = runnerRepository.findAll();
+        if (runners.size() != 0) {
+            int totalHeight = 0;
+            int counnter = 0;
+            for (RunnerEntity runner : runners) {
+                totalHeight += runner.getHeight();
+                counnter++;
+
+
+            }
+            return (double) totalHeight / counnter;
+        } else {
+            return -1.0;
+        }
     }
     public static class LapTimeRequest {
         private int lapTimeSeconds;
