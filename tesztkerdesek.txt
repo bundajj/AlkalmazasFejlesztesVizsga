@@ -1,6 +1,6 @@
-Név:
-Szak:
-Neptun azonosító:
+Név: Binder Dávid Gábor
+Szak: MI
+Neptun azonosító: Rysjes
 
 Kérdés 1:
 Melyik szerepel az Agile Manifestoban az alábbiak közül?
@@ -10,7 +10,7 @@ B. A dokumentáció előnyben részesítése a működő szoftverrel szemben
 C. Együttműködés az ügyféllel szerződés tárgyalása helyett
 D. Egyértelműen meghatározott projektszabályok a változások helyett
 
-Válasz:
+Válasz: C
 
 Kérdés 2:
 Melyik elem NEM része a Kanban táblának?
@@ -20,7 +20,7 @@ B. Munkafázisok
 C. WIP limitek
 D. Ütemterv
 
-Válasz:
+Válasz: D
 
 Kérdés 3:
 Melyik az alábbiak közül NEM egy Agile módszertan?
@@ -30,7 +30,7 @@ B. Scrum
 C. Waterfall
 D. Kanban
 
-Válasz:
+Válasz: C
 
 Kérdés 4:
 Milyen eszközökkel jelenítheti meg a Kanban módszer a munkafolyamatokat?
@@ -40,7 +40,7 @@ B. Word dokumentumokkal
 C. Kanban táblával
 D. PowerPoint prezentációkkal
 
-Válasz:
+Válasz: C
 
 Kérdés 5:
 Mit jelent a 'major' verziószám a szoftver verziószámozásában?
@@ -50,7 +50,7 @@ B. Az apróbb hibajavításokat
 C. A jelentős funkcionális változásokat vagy frissítéseket
 D. Az alfa és béta tesztelési fázisokat
 
-Válasz:
+Válasz: C
 
 Kérdés 6:
 Mire utal a "User Story" kifejezés az Agile keretrendszerekben?
@@ -60,7 +60,7 @@ B. Egy személyre szabott felhasználói felületre
 C. Egy felhasználói igény leírására
 D. Egy hibajavításra
 
-Válasz:
+Válasz: C
 
 Kérdés 7:
 Melyik git parancs szolgál egy új fejlesztési ág létrehozására?
@@ -70,7 +70,7 @@ B. pull
 C. push
 D. branch
 
-Válasz:
+Válasz: D
 
 Kérdés 8:
 Melyik fejlesztői környezetet használják leggyakrabban a fejlesztők a kód írása és tesztelése során?
@@ -80,7 +80,7 @@ B. Integrációs tesztelési környezet (Integration Testing)
 C. Felhasználói elfogadási tesztelési környezet (User Acceptance Testing, UAT)
 D. Fejlesztési környezet (Development)
 
-Válasz:
+Válasz: D
 
 Kérdés 9:
 Mi a célja a git clone parancsnak?
@@ -90,7 +90,7 @@ B. Egy új git repository létrehozása
 C. A módosítások összefésülése a git repository-ban
 D. A git repository törlése
 
-Válasz:
+Válasz: A
 
 Kérdés 10:
 Melyik az alábbiak közül egy bevett clean code gyakorlat?
@@ -100,4 +100,4 @@ B. A változók, metódusok és osztályok beszédes neveinek használata, amely
 C. A kód duplikálása, hogy biztosítsa a függetlenséget az egyes modulok között
 D. A metódusok és függvények minél nagyobbá tétele a lehető legtöbb logika beépítése érdekében
 
-Válasz:
+Válasz: B
