@@ -12,6 +12,16 @@ public class RunnerEntity {
     private String runnerName;
     private long averagePace;
     private long height;
+    @ManyToOne
+    private SponsorEntity sponsor;
+
+    public SponsorEntity getSponsor() {
+        return sponsor;
+    }
+
+    public void setSponsor(SponsorEntity sponsor) {
+        this.sponsor = sponsor;
+    }
 
     public long getHeight() {
         return height;
