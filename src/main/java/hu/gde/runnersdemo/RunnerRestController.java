@@ -60,6 +60,31 @@ public class RunnerRestController {
         } else {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Runner with ID " + id + " not found");
         }
+
+
+    }
+
+    @GetMapping("/maxheight")
+    public String getHighest() {
+        List<RunnerEntity> runners = runnerRepository.findAll();
+        if (runners.size() != 0) {
+            int maxHeight = 0;
+            RunnerEntity maxHeightRunner=null;
+
+            for (RunnerEntity runner : runners) {
+
+                if (maxHeight<runner.getHeight()){
+
+                    maxHeightRunner=runner;
+                }
+
+
+
+            }
+            return maxHeightRunner.getRunnerName();
+        } else {
+            return "null";
+        }
     }
     public static class LapTimeRequest {
         private int lapTimeSeconds;
